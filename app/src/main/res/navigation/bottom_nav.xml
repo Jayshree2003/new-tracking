@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav.xml"
+    app:startDestination="@id/location">
+
+    <fragment
+        android:id="@+id/location"
+        android:name="com.example.newtracking.studentbottomnavigation.location_F"
+        android:label="fragment_location_F"
+        tools:layout="@layout/fragment_location_" >
+        <action
+            android:id="@+id/action_location_F_to_stop"
+            app:destination="@id/stop" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/stop"
+        android:name="com.example.newtracking.studentbottomnavigation.stopdetails_F"
+        android:label="fragment_stopdetails_"
+        tools:layout="@layout/fragment_stopdetails_" >
+        <action
+            android:id="@+id/action_stop_to_StudentProfile"
+            app:destination="@id/StudentProfile" />
+    </fragment>
+    <fragment
+        android:id="@+id/StudentProfile"
+        android:name="com.example.newtracking.studentbottomnavigation.studentProfile_F"
+        android:label="fragment_student_profile"
+        tools:layout="@layout/fragment_student_profile" />
+</navigation>

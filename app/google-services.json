@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "26646796249",
+    "project_id": "newtracking-6cd4c",
+    "storage_bucket": "newtracking-6cd4c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:26646796249:android:32f8d675d13b1dc5cbabc8",
+        "android_client_info": {
+          "package_name": "com.example.newtracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVEmJPH_swGSh4-OzxKTfb4vOwYoGf1gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
