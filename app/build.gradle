@@ -33,6 +33,7 @@ dependencies {
 
     implementation 'androidx.navigation:navigation-fragment:2.8.7'
     implementation 'androidx.navigation:navigation-ui:2.8.7'
+    implementation 'androidx.activity:activity:1.8.0'
     dependencies {
         // Firebase Realtime Database
         implementation 'com.google.firebase:firebase-database:20.3.0'
